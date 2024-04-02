@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <form action="" id="myform">
+    <label for="user_name_inp">Your name:</label> <br>
+    <input type="text" name="user_name" size="40" id="user_name_inp"> <br> <br>
+
+    <label for="user_surname_inp">Your surname:</label> <br>
+    <input type="text" name="user_surname" disabled id="user_surname_inp"> <br> <br>
+
+    <label for="user_email_inp">Your email:</label> <br>
+    <input type="email" name="user_email" id="user_email_inp" autofocus> <br> <br>
+
+    <label for="user_email_inp">Your email:</label> <br>
+    <input type="email" name="user_email" id="user_email_inp" autofocus> <br> <br>
+
+    <label for="user_profession_inp">Your profession:</label> <br>
+    <select name="user_profession" id="user_profession_inp" multiple>
+      <optgroup label="Web development">
+        <option value="front-end">Front-End</option>
+        <option value="back-end">Back-End</option>
+        <option value="full-stack">Full Stack</option>
+      </optgroup>
+      <optgroup label="Networking">
+        <option value="network-admin" disabled>Network Admin</option>
+        <option value="network-security"><a href="#">Network Security</a></option>
+      </optgroup>
+    </select> <br><br>
+
+    <input type="text" list="os_list"> <br><br>
+
+    <input type="range" step="10" value="90">
+
+    <datalist id="os_list">
+      <option value="Linux"></option>
+      <option value="Windows"></option>
+      <option value="MacOS"></option>
+    </datalist>
+
+    <input type="file" accept=".rar">
+
+    <textarea readonly name="" id="" cols="30" rows="10" placeholder="qwer"></textarea>
+
+    <fieldset>
+      <legend>basliq</legend>
+
+      <input type="submit" value="Submit with input">
+      <input type="reset" value="Reset with input">
+
+      <button type="submit">Submit with button</button>
+      <button type="reset">Reset with button</button>
+
+      <button type="submit" formaction="https">w3school</button>
+      <button type="submit">self</button>
+
+      <button type="submit">validate</button>
+      <button type="submit" formnovalidate>vitpoiut validate</button>
+
+      <button type="submit">get</button>
+      <button type="submit" formmethod="post">post</button>
+    </fieldset>
+  </form>
+
+  <h2>Buttons out of form</h2>
+
+  <button form="myform" type="submit">current</button>
+  <button form="myform" type="submit" formtarget="_blank">new tab</button>
+
+</body>
+
+</html>

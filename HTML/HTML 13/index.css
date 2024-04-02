@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header,
+aside,
+main,
+footer {
+  font-size: 32px;
+  padding: 24px;
+}
+
+header,
+footer {
+  color: #eeeeee;
+}
+
+header {
+  background-color: #222831;
+}
+
+aside {
+  background-color: #76abae;
+}
+
+main {
+  background-color: #eeeeee;
+}
+
+footer {
+  background-color: #31363f;
+}

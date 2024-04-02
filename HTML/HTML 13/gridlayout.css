@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  grid-template-areas:
+    'A1 A1 A1'
+    'A2 A3 A5'
+    'A2 A4 A4';
+}
+
+header,
+aside,
+main,
+footer {
+  font-size: 32px;
+  padding: 24px;
+}
+
+header,
+footer {
+  color: #eeeeee;
+}
+
+header {
+  background-color: #222831;
+  grid-area: A1;
+}
+
+aside.aside1 {
+  background-color: #76abae;
+  grid-area: A2;
+}
+aside.aside2 {
+  background-color: #76abae;
+  grid-area: A5;
+}
+
+main {
+  background-color: #eeeeee;
+  grid-area: A3;
+}
+
+footer {
+  background-color: #31363f;
+  grid-area: A4;
+}

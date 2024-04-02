@@ -1,0 +1,22 @@
+a.btn {
+  text-decoration: none;
+  padding: 16px;
+  display: inline-block;
+  border-radius: 8px;
+  background-color: blue;
+  color: white;
+  margin: 8px;
+}
+
+a.danger {
+  background-color: red;
+}
+a.success {
+  background-color: green;
+}
+a.warning {
+  background-color: orange;
+}
+a.info {
+  background-color: lightseagreen;
+}
