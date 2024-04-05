@@ -1,0 +1,37 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: red;
+}
+
+/* selector {
+  property: value;
+  property: value;
+  property: value;
+} */
+
+body a {
+  color: red;
+}
+
+/*
+Specifity compare
+
+a {}
+0.0.1
+
+body a#mylink {}
+1.0.2
+
+a#mylink.danger {}
+1.1.1
+
+body.dark a#link.mylink
+1.2.2
+
+body.dark > section#about + section > div#left > p:hover > a::selection {}
+0.2.2.7
+
+inline style property
+1.0.0.0
+
+*/

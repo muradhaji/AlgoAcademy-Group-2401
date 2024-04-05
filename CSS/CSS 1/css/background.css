@@ -1,0 +1,82 @@
+body {
+  /* background-color: red; */
+  /* background-color: rgba(255, 0, 0, 0.5); */
+}
+
+h1 {
+  /* background-color: green; */
+  /* opacity: 0.5; */
+  /* background-color: rgba(0, 255, 0, 0.5); */
+}
+
+body {
+  /* background-image: url(../images/bg.png); */
+  /* background-repeat: repeat; */
+  /* background-repeat: repeat-x; */
+  /* background-repeat: repeat-y; */
+  /* background-repeat: space; */
+  /* background-repeat: round; */
+  /* background-repeat: no-repeat; */
+  /* background-position-x: left; */
+  /* background-position-x: center; */
+  /* background-position-x: right; */
+  /* background-position-y: top; */
+  /* background-position-y: center; */
+  /* background-position-y: bottom; */
+  /* background-position: right bottom; */
+  /* background-position: bottom right; */
+  /* background-position: center center; */
+  /* background-size: 500px 500px; */
+  /* background-size: 50% 50%; */
+  /* background-size: contain; */
+  /* background-size: cover;
+  background-attachment: fixed; */
+}
+
+div {
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+  border: 20px solid rgba(0, 0, 0, 0.3);
+  /* border: 20px solid black; */
+  display: inline-block;
+  margin: 20px;
+  /* background-image: url(../images/bg.png);
+  background-repeat: no-repeat;
+  background-size: 130px 130px; */
+}
+
+div.div1 {
+  /* background-origin: border-box; */
+
+  /* background: url(../images/bg2.png) top left / 80% 80% no-repeat,
+    url(../images/bg.png) bottom right / 80% 80% no-repeat; */
+  /* background-blend-mode: color; */
+
+  /* background-image: url(), url();
+  background-position: top left, bottom right;
+  background-repeat: repeat, no-repeat; */
+}
+
+div.div2 {
+  background-origin: padding-box;
+}
+div.div3 {
+  background-origin: content-box;
+}
+
+div.div4 {
+  background-origin: border-box;
+  background-clip: border-box;
+  background-size: 50% 50%;
+}
+div.div5 {
+  background-origin: border-box;
+  background-clip: padding-box;
+  background-size: 50% 50%;
+}
+div.div6 {
+  background-origin: border-box;
+  background-clip: content-box;
+  background-size: 50% 50%;
+}
