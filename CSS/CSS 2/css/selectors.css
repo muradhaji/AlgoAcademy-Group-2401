@@ -1,0 +1,178 @@
+/* ------------- */
+/* Combinators */
+/* ------------- */
+
+/* selector {
+  property: value;
+  property: value;
+} */
+/* div#parent div#middle {
+  color: red;
+} */
+
+/* div#parent div.child {
+  color: red;
+}
+div#parent > div.child {
+  color: red;
+} */
+
+/* div.c1 + * {
+  color: red;
+} */
+
+/* div.c1 ~ * {
+  color: red;
+} */
+
+/* ------------- */
+/* Psudo classes */
+/* ------------- */
+
+/* a {
+  color: yellow;
+} */
+
+/* a:link {
+  color: blue;
+}
+a:visited {
+  color: red;
+}
+a:hover {
+  color: green;
+}
+a:active {
+  color: yellow;
+} */
+
+/* div.child:first-child {
+  color: red;
+} */
+/* div.child:last-child {
+  color: red;
+} */
+/* div.child:nth-child(3) {
+  color: red;
+} */
+/* div.child:nth-child(odd) {
+  color: red;
+} */
+/* div.child:nth-child(even) {
+  color: red;
+} */
+/* div.child:nth-child(2n + 4) {
+  color: red;
+} */
+/* div.child:nth-last-child(3) {
+  color: red;
+} */
+
+/* div.child:lang(az) {
+  color: red;
+}
+
+input:focus {
+  background-color: red;
+} */
+/* input:focus-visible {
+  outline: 0px;
+} */
+
+/* ------------- */
+/* Psudo elements */
+/* ------------- */
+
+/* span {
+  display: inline-block;
+} */
+
+/* div::first-line {
+  color: red;
+}
+span::first-line {
+  color: red;
+} */
+
+/* div::first-letter {
+  color: red;
+}
+span::first-letter {
+  color: red;
+} */
+
+/* div::selection {
+  background-color: red;
+  font-size: 32px;
+} */
+
+/* li::marker {
+  color: red;
+  font-size: 24px;
+} */
+
+h1.he2::before {
+  /* content: "This "; */
+  /* content: ""; */
+  /* width: 40px;
+  height: 40px; */
+  /* background-color: red; */
+  /* border: 10px solid transparent;
+  border-right-color: black;
+  display: inline-block; */
+}
+/* h1.he2::after {
+  content: " heading";
+} */
+
+/* h1[class] {
+  color: red;
+} */
+/* h1[class="sky"] {
+  color: red;
+} */
+/* h1[class~="sky"] {
+  color: red;
+} */
+/* h1[class|="sky"] {
+  color: red;
+} */
+/* h1[class^="sky"] {
+  color: red;
+} */
+/* h1[class$="sky"] {
+  color: red;
+} */
+/* h1[class*="sky"] {
+  color: red;
+} */
+
+/* input[name="user_name"] {} */
+
+h1 {
+}
+
+h1:hover ~ span {
+  display: inline-block;
+}
+
+span {
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: darkcyan;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 8px;
+  display: none;
+  position: relative;
+}
+
+span::before {
+  content: '';
+  border: 8px solid transparent;
+  border-bottom-color: darkcyan;
+  position: absolute;
+  bottom: calc(100% - 2px);
+  left: 50%;
+  translate: -50% 0;
+}

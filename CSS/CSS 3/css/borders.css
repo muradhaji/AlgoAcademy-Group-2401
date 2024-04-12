@@ -1,0 +1,102 @@
+.b1 {
+  border: 6px solid black;
+}
+.b2 {
+  /* border-width: 6px; */
+  /* border-width: thin; */
+  /* border-width: medium; */
+  /* border-width: thick; */
+
+  /* border-style: solid; */
+  /* border-style: dashed; */
+
+  /* border-color: black; */
+  /* color: red; */
+}
+.b3 {
+  /* border-top-style: solid; */
+
+  /* border-style: dashed dotted double groove;
+  border-width: 2px 4px 6px 8px;
+  border-color: blue red green black; */
+
+  /* border-style: solid; */
+  /* border-style: solid dashed; */
+  /* border-style: solid dashed double; */
+  /* border-style: all; */
+  /* border-style: top-bottom left-right; */
+  /* border-style: top left-right bottom; */
+  /* border-style: top right bottom left; */
+}
+.b4 {
+  /* border-top-style: solid; */
+  /* border-bottom-style: solid; */
+  border-block-style: solid;
+  /* border-block-start-style: solid; */
+  /* border-block-end-style: solid; */
+
+  /* border-inline-style: solid; */
+  /* border-inline-start-style: solid; */
+  /* border-inline-end-style: solid; */
+
+  /* writing-mode: horizontal-tb; */
+  /* writing-mode: vertical-lr; */
+  writing-mode: vertical-rl;
+}
+.b5 {
+  width: 200px;
+  height: 200px;
+  border: solid;
+  /* border-top-left-radius: 8px;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 32px;
+  border-bottom-left-radius: 64px; */
+
+  /* border-radius: 16px; */
+  /* border-radius: 16px 32px; */
+  /* border-radius: 16px 32px 64px; */
+  /* border-radius: 16px 32px 64px 128px; */
+  /* border-radius: 100px; */
+  border-radius: 50%;
+}
+.b6 {
+  width: 500px;
+  background-color: darkcyan;
+  margin: auto;
+}
+@media (max-width: 533px) {
+  .b6 {
+    width: 100%;
+  }
+}
+.b7 {
+  width: 400px;
+  background-color: darkcyan;
+  /* margin: 50%; */
+  margin: -20px;
+}
+.b8 {
+}
+.b9 {
+  margin-bottom: 40px;
+}
+.b10 {
+  margin-top: 20px;
+}
+
+.b11 {
+  width: 200px;
+  margin: 20px;
+  display: inline-block;
+}
+.b12 {
+  width: 200px;
+  margin: 20px;
+  display: inline-block;
+}
+.b13 {
+}
+.b14 {
+}
+.b15 {
+}
