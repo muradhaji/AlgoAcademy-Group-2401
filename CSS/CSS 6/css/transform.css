@@ -1,0 +1,99 @@
+/* div {
+  width: 300px;
+  height: 100px;
+} */
+
+#d1 {
+  background-color: darkcyan;
+
+  /* transform: translate(100px, 50px); */
+  /* transform: translateX(100px) translateY(50px) translateZ(500px); */
+  /* transform: translate3d(100px, 50px , 500px); */
+  /* translate: 100px 50px 500px; */
+  translate: 50%;
+}
+#d2 {
+  background-color: orangered;
+  transform: skewX(20deg);
+  /* transform-origin: bottom; */
+  /* transform-origin: 0px 80%; */
+
+  /* transform: skewY(20deg); */
+  /* transform: skewX(20deg) skewY(20deg); */
+  /* transform: skewX(-20deg) skewY(-20deg); */
+  /* transform: skewX(-20deg) skewY(20deg); */
+  /* transform: skewX(1rad); */
+  /* transform: skewX(0.125turn); */
+}
+#d3 {
+  background-color: darkcyan;
+
+  /* transform: scaleX(2); */
+  /* transform: scaleY(2); */
+  /* transform: scaleX() scaleY(); */
+  /* transform: scale(2); */
+  /* transform: scale(2, 3); */
+  /* scale: 2; */
+  /* transform-origin: top left; */
+  transform-origin: left;
+  /* scale: 2 3; */
+  /* scale: 0.5; */
+  scale: 110%;
+  /* scale: -100% -100%; */
+}
+#d4 {
+  background-color: orangered;
+
+  /* transform: rotateZ(45deg); */
+  /* transform-origin: 0px 0px; */
+  /* transform-origin: -50px -50px; */
+  /* transform-origin: 300px 100px; */
+  /* transform-origin: 400px 50px; */
+
+  /* transform: rotateX(45deg); */
+  /* transform: rotateY(45deg); */
+  /* transform: rotate(45deg); */
+  /* transform: rotate3d(0, 0, 1, 45deg); */
+
+  /* transition-property: all | width, rotate, height; */
+  /* transition-duration: 0.5s | 500ms; */
+  /* transition: all 1s; */
+  transition-property: all;
+  transition-duration: 1s;
+  /* transition-delay: 2s; */
+  /* transition-timing-function: ease; */
+  transition-timing-function: cubic-bezier(0, 1.39, 1, -0.42);
+  /* transition-behavior: allow-discrete; */
+  transition-behavior: normal;
+}
+
+#d4:hover {
+  rotate: 45deg;
+}
+
+#d5 {
+  width: 200px;
+  height: 200px;
+  background-color: darkcyan;
+  transition-property: width, height, background-color;
+  transition-duration: 2s;
+  transition-timing-function: cubic-bezier(0, 1.39, 1, -0.42);
+}
+
+#d5:hover {
+  width: 400px;
+  height: 400px;
+  background-color: orangered;
+}
+
+#bg {
+  font-size: 64px;
+  padding: 200px 64px;
+  background-image: url(../download.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-weight: 900;
+  background-clip: text;
+  background-origin: content-box;
+  color: transparent;
+}
