@@ -1,0 +1,45 @@
+div {
+  width: 200px;
+  height: 200px;
+  background-color: darkcyan;
+
+  animation-name: testAnime;
+  animation-duration: 2s;
+  /* animation-iteration-count: infinite; */
+  /* animation-play-state: paused; */
+  /* animation-direction: reverse; */
+  /* animation-direction: alternate; */
+  /* animation-direction: alternate-reverse; */
+  /* animation-timing-function: linear; */
+  /* animation-fill-mode: forwards; */
+  /* animation-fill-mode: both; */
+}
+
+div:hover {
+  /* animation-play-state: running; */
+}
+
+@keyframes testAnime {
+  /* from {
+  }
+  to {
+  } */
+  /* 0% {
+  }
+  100% {
+  } */
+  0% {
+    font-family: monospace;
+    translate: 0px 0px;
+  }
+  30% {
+    translate: 200px 0px;
+  }
+  70% {
+    translate: 200px 200px;
+  }
+  100% {
+    font-size: 32px;
+    translate: 0px 200px;
+  }
+}

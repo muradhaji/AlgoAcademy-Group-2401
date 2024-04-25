@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header - Start */
+header {
+}
+header > nav {
+  /* display: flex; */
+  /* justify-content: space-between; */
+}
+header > nav > a {
+  letter-spacing: 4px;
+}
+header > nav > a,
+header > nav > div.right > a {
+  padding: 16px;
+  display: inline-block;
+  text-decoration: none;
+}
+header > nav > a:hover,
+header > nav > div.right > a:hover {
+}
+header > nav > div.right {
+  float: right;
+}
+/* Header - End */
+
+/* Learnmore - Start */
+section#learnmore {
+  background-image: url(../images/mac.jpg);
+  color: white;
+  padding: 128px 48px;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+
+  height: calc(100vh - 53px);
+}
+section#learnmore > h1 {
+  font-size: 64px;
+}
+section#learnmore > p {
+  font-size: 18px;
+}
+section#learnmore > a {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 16px;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+}
+section#learnmore > div#socialicons {
+  color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  gap: 4px;
+  font-size: 18px;
+  position: absolute;
+  bottom: 48px;
+  left: 48px;
+  /* bottom: 0px; */
+  /* left: 0px; */
+  /* padding: 48px; */
+}
+section#learnmore > div#socialicons > i {
+}
+section#learnmore > div#socialicons > i:hover {
+  /* color: rgba(255, 255, 255, 0.4); */
+  opacity: 0.7;
+}
+/* Learnmore - End */
+
+/* We Know Design - Start */
+section#weknowdesign {
+  background-color: #f1f1f1;
+  padding: 128px 16px;
+
+  display: flex;
+  gap: 16px;
+}
+section#weknowdesign > div.left {
+  flex: 1;
+}
+section#weknowdesign > div.left > h3 {
+}
+section#weknowdesign > div.left > p {
+}
+section#weknowdesign > div.left > a {
+}
+section#weknowdesign > div.left > a:hover {
+}
+section#weknowdesign > div.right {
+  flex: 1;
+}
+section#weknowdesign > div.right > img {
+  width: 100%;
+}
+/* We Know Design - End */
+
+/* Team - Start */
+section#team {
+  padding: 128px 16px;
+}
+section#team > h3 {
+}
+section#team > p {
+}
+section#team > div.members {
+  display: grid;
+  grid-template-columns: repeat(4, calc(25% - 12px));
+  gap: 16px;
+}
+section#team > div.members > div.member {
+}
+section#team > div.members > div.member > img {
+  width: 100%;
+}
+section#team > div.members > div.member > div.info {
+}
+section#team > div.members > div.member > div.info > h4 {
+}
+section#team > div.members > div.member > div.info > p.position {
+}
+section#team > div.members > div.member > div.info > p {
+}
+section#team > div.members > div.member > div.info > a {
+}
+section#team > div.members > div.member > div.info > a:hover {
+}
+/* Team - End */
+
+/* Responsiveness - Start */
+@media (max-width: 992px) {
+  section#team > div.members {
+    grid-template-columns: repeat(2, calc(50% - 8px));
+  }
+}
+@media (max-width: 576px) {
+  section#team > div.members {
+    grid-template-columns: auto;
+  }
+}
+/* Responsiveness - End */
