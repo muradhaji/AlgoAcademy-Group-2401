@@ -1,0 +1,100 @@
+/* h1 {
+  --bg-dark: #000000;
+  --text-light: #ffffff;
+  --s-padding: 8px;
+  --m-padding: 16px;
+  --l-padding: 32px;
+  --std-border: 4px solid var(--bg-dark);
+}
+
+h1,
+p {
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  padding: var(--s-padding);
+  border: var(--std-border);
+} */
+
+/* nav {
+  display: flex;
+  justify-content: space-between;
+
+  > a {
+    letter-spacing: 4px;
+  }
+  a {
+    padding: 8px;
+    background-color: #ccc;
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    background-color: #333;
+    color: white;
+  }
+
+  div.right {
+    display: flex;
+
+    a {
+      display: inline-block;
+    }
+  }
+} */
+
+/* @media screen {
+} */
+/* @media print {
+  body {
+    background-color: black;
+  }
+  a {
+    color: white;
+  }
+} */
+
+/* @media (orientation: portrait) {
+}
+@media (orientation: landscape) {
+  body {
+    background-color: black;
+  }
+  a {
+    color: white;
+  }
+} */
+
+/* @media (max-width: 300px) or (min-width: 500px) {
+  body {
+    background-color: black;
+  }
+  a {
+    color: white;
+  }
+} */
+/* @media (min-width: 300px) and (max-width: 500px) {
+  body {
+    background-color: black;
+  }
+  a {
+    color: white;
+  }
+} */
+/* @media print and (max-width: 500px) {
+  body {
+    background-color: black;
+  }
+  a {
+    color: white;
+  }
+} */
+/* @media (prefers-reduced-motion: reduce) {
+} */
+/* @media (prefers-reduced-motion: reduce) {
+  body {
+    background-color: black;
+  }
+  a {
+    color: white;
+  }
+} */
