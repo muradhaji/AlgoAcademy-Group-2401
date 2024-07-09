@@ -198,22 +198,22 @@ s = 1;
 // -------------------------------- //
 // -------------------------------- //
 
-let a = Number(prompt('Enter A:'));
-let operator = prompt('Enter operator');
-let b = Number(prompt('Enter B:'));
-let c = Number(prompt('Enter C:'));
+// let a = Number(prompt('Enter A:'));
+// let operator = prompt('Enter operator');
+// let b = Number(prompt('Enter B:'));
+// let c = Number(prompt('Enter C:'));
 
-let x = a;
-// let sum = 0;
+// let x = a;
+// // let sum = 0;
 
-while (x <= b) {
-  console.log(x);
-  // sum += x;
-  if (operator == '*') {
-    x *= c;
-  } else if (operator == '+') {
-    x += c;
-  }
-}
+// while (x <= b) {
+//   console.log(x);
+//   // sum += x;
+//   if (operator == '*') {
+//     x *= c;
+//   } else if (operator == '+') {
+//     x += c;
+//   }
+// }
 
 // console.log(sum);
