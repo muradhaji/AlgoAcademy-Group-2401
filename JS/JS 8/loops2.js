@@ -111,7 +111,7 @@
 
 /* ------------------------------------ */
 
-let nums = [5, -3, 10, 0, 23, 12, 20, -7, 13];
+// let nums = [5, -3, 10, 0, 23, 12, 20, -7, 13];
 
 // Hər bir task üçün fərqli ədədlərdən ibarət array yaradın
 
@@ -124,6 +124,55 @@ let nums = [5, -3, 10, 0, 23, 12, 20, -7, 13];
 // Task 7: cüt ədədləri consola çıxartmaq
 // Task 8: 5-ə qalıqsız bölünənləri consola çıxartmaq
 // Task 9: bütün elementlərin ədədi ortasını tapmaq
+
+/* ------------------------------------ */
+
+// Task 3 solution
+// let nums = [5, -3, 10, 0, 23, 12, 20, -7, 13];
+// let s = 1;
+
+// for (let x = 0; x < nums.length; x++) {
+//   if (nums[x] != 0) {
+//     s *= nums[x];
+//   }
+// }
+
+/* ------------------------------------ */
+
+// Task 4 solution
+// let nums = [-20, -7, -3, -13];
+// let max = -Infinity;
+// let max = nums[0];
+// for (let x = 0; x < nums.length; x++) {
+//   if (nums[x] > max) {
+//     max = nums[x];
+//   }
+// }
+
+// console.log(max);
+
+/* ------------------------------------ */
+
+// Task 6 solution
+// let nums = [5, -3, 10, 0, 23, 12, 20, -7, 13];
+
+// for (let x = 0; x < nums.length; x++) {
+//   if (nums[x] % 2 == 0) {
+//     console.log(nums[x]);
+//   }
+// }
+
+/* ------------------------------------ */
+
+// Task 9 solution
+// let nums = [5, -3, 10, 0, 23, 12, 20, -8, 13];
+// let s = 0;
+
+// for (let x = 0; x < nums.length; x++) {
+//   s += nums[x];
+// }
+
+// console.log(s / nums.length);
 
 /* ------------------------------------ */
 
